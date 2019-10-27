@@ -1,8 +1,8 @@
-import * as express from "express";
-import * as morgan from "morgan";
-import * as cors from "cors";
-import * as helmet from "helmet";
 import * as compression from "compression";
+import * as cors from "cors";
+import * as express from "express";
+import * as helmet from "helmet";
+import * as morgan from "morgan";
 
 import { router as quoteRouter } from "./routes/rqm";
 
@@ -19,5 +19,5 @@ app.use("/rqm", quoteRouter);
 app.use((req, res) => res.status(404).end());
 
 app.listen(port, () =>
-  console.log(`server is started and listening on port ${port} !`)
+  console.log(`server is started and listening on port ${port} !!`),
 );
