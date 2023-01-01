@@ -33,11 +33,11 @@
     "@types/helmet": "0.0.44",
     "@types/morgan": "^1.7.37",
     "nodemon": "^1.19.4",
-    "source-map-loader": "^0.2.4",
-    "ts-loader": "^6.2.1",
+    "source-map-loader": "^4.0.1",
+    "ts-loader": "^9.4.2",
     "ts-node": "^8.4.1",
     "tslint": "^5.20.0",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   }
 }
